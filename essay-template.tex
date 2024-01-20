@@ -48,21 +48,21 @@
 \renewcommand{\headrulewidth}{0pt} % Remove line by setting width to 0
 \setlength{\headheight}{52pt}% ...at least 51.60004pt
 \fancyhead[C]{\ifnum\value{page}=1 \flushright\footnotesize{\textsc{{Page 1}}} \fi } 
-\fancyhead[L]{\ifnum\value{page}>1 \footnotesize{\textsc{\flushleft{Essay Template}}} \fi}
+\fancyhead[L]{\ifnum\value{page}>1 \footnotesize{\textsc{\flushleft{Essay Template [Title]}}} \fi}
 \fancyhead[R]{\ifnum\value{page}>1 \footnotesize{\textsc{\flushright{Page \thepage}}} \fi}
 
 
 % \fancyhead[C]{\footnotesize{\textsc{Essay Template}}}
-\fancyfoot[L] {\ifnum\value{page}>1 \footnotesize{\textsc{$\copyright$ \hspace{.02cm} David Witus (2024)}} \fi}
+\fancyfoot[L] {\ifnum\value{page}>1 \footnotesize{\textsc{$\copyright$ \hspace{.02cm} [Author Name] (20xx)}} \fi}
 % \fancyfoot[C]{\footnotesize{--~\thepage~--}}
 \fancyfoot[R]{\ifnum\value{page}>1 \footnotesize{\textsc{ All rights reserved}}  \fi}
 
-\title{\Large{Essay Template}\\
+\title{\Large{Essay Template (Title)}\\
 \vspace*{.75em}
-\large{For personal use only}\\
+\large{Subttle (if any)}\\
 \vspace*{.75em}
-\small\textit{Do not share this for now.}}
-\author{\large{by David Witus}}
+\small\textit{Now available for non-commercial use sharing.}}
+\author{\large{by [Author Name]}}
 \date{}
 
 \begin{document} 
@@ -81,7 +81,7 @@
 \begin{spacing}{1.15}
     \vspace*{-3em}
 \begin{center}
-    Approximately X,000 words.
+    Approximately [X,000] words.
 \end{center}
 
 \lipsum[1-10][]

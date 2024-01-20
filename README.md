@@ -1,3 +1,5 @@
-# Reminiscences
+# Essay template for LaTeX (personal use)
 
-Something for personal reading consumption.
+This is a sample essay using the article class in LaTeX, with a customized header and footer on all pages after the title page.
+
+Unlicensed and available for use.
